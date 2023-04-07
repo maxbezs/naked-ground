@@ -197,7 +197,7 @@ const delay = 2500;
             </div>
           </section> : null
           }
-           <h1 className='header-center-links-h1-a-img'>NAKED GROUND</h1>
+           <h1 className='header-center-links-h1-a-img' style={{fontSize: "24px", lineHeight: "1"}}>NAKED GROUND</h1>
         </div>
       </header>
       <main className='main'>
@@ -260,7 +260,7 @@ GROUND is a daily habit which brings positivity and company to everyone's day"</
                   <img src={image34} alt="" />
                 </div>
                 <div className='ph' >
-                  <img src={image44} alt=""/>
+                  <img src={image5} alt=""/>
                 </div>
               </div>
             </div>
