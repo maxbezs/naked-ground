@@ -18,7 +18,7 @@ import freeze from './IMG_4365.jpg';
 
 function App() {
 
-  const colors = [image1, image2, image3, image4, image5];
+  const colors = [image2, image1, image3, image4, image5];
 const delay = 2500;
 
   const [index, setIndex] = React.useState(0);
