@@ -40,7 +40,7 @@ const delay = 2500;
       <div className="div1-announcment">
         <div className="div-announcment">
           <p className="p-announcment">
-            <a className='a-announcment' href="/shop-all">FREE UK DELIVERY OVER £30 - SHOP NOW</a>
+            <a className='a-announcment' href="">FREE DELIVERY OVER £30 - SHOP NOW</a>
           </p>
         </div>
       </div>
