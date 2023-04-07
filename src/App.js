@@ -9,7 +9,10 @@ import image44 from './IMG_3594.jpg';
 import coffeebags from './coffeeshopbags_large.jpg';
 import coffeepods from './coffeeshoppods.jpg';
 import coffeetin from './coffeetinshop_large.jpg';
-
+import towel from './IMG_4369.jpg';
+import bottle from './IMG_4368.jpg';
+import coala from './IMG_4363.jpg';
+import freeze from './IMG_4365.jpg';
 
 function App() {
 
@@ -279,12 +282,14 @@ GROUND is a daily habit which brings positivity and company to everyone's day"</
           <section className='main-div4-section'>
             <div className='main-div4-section-div'>
               <div className='main-div4-section-div-div'>
-                <div className='main-div4-section-div-div-div' style={{visibility: "inherit", opacity: "1", transform: "matrix(1, 0, 0, 1, 0, 0)"}}>
-                  <div className='gg'>
-                          <img className='ff' alt="" src={coffeetin} />
-                          <img alt="" src={coffeebags} />
-                          <img className='ff' alt="" src={coffeepods} />
-                  </div>
+                <div className='main-div4-section-div-div-div'>
+                    <img className='ff' alt="" src={coffeetin} />
+                    <img style={{height: "20vh"}} alt="" src={coffeebags} />
+                    <img className='ff' alt="" src={coffeepods} />
+                    <img className='ff' alt="" src={towel} />
+                    <img className='ff' alt="" src={bottle} />
+                    <img className='ff' alt="" src={coala} />
+                    <img className='ff' alt="" src={freeze} />
                 </div>
               </div>
               <div className='main-div4-section-div-div1'>

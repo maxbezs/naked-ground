@@ -1000,8 +1000,12 @@ body{
   margin: 0 112px;
   user-select: none;
   visibility: inherit;
-  opacity: 1;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 24px;
+  flex-wrap: wrap;
+  height: auto;
 }
 
 .main-div4-section-div-div-div-1{
@@ -1522,10 +1526,8 @@ form{
 }
 
 img{
-  max-width: inherit;
-  max-height: inherit;
-  height: inherit;
-  width: inherit;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
 }
 
@@ -1781,11 +1783,14 @@ img{
   color: #fff;
 }
 
-.gg{
-  height: 335.719px; width: 100%; display: flex; flex-direction: row; justify-content: space-evenly; gap: 24px;
+.slider-img{
+  width: 100%;
+  height: 100%;
 }
+
 .ff{
-  display: block;
+  display: flex;
+  height: 20vh;
 }
 
 @media (max-width: 600px) {
@@ -1821,8 +1826,5 @@ img{
     padding: 0;
   }
 
-  .ff{
-    display: none;
-  }
 }
 
