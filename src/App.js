@@ -1,9 +1,11 @@
 import logo from './logo.png';
 import './App.css';
 import React from 'react';
-import image1 from './IMG_0065.jpg';
-import image2 from './IMG_0068.jpg';
-import image3 from './IMG_0848.jpg';
+import image1 from './1.jpg';
+import image2 from './2.jpg';
+import image3 from './3.jpg';
+import image4 from './4.jpg';
+import image5 from './5.jpg';
 import image34 from './img22.jpg';
 import image44 from './IMG_3594.jpg';
 import coffeebags from './coffeeshopbags_large.jpg';
@@ -16,7 +18,7 @@ import freeze from './IMG_4365.jpg';
 
 function App() {
 
-  const colors = [image1, image2, image3];
+  const colors = [image1, image2, image3, image4, image5];
 const delay = 2500;
 
   const [index, setIndex] = React.useState(0);
