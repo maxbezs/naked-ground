@@ -5,7 +5,12 @@ import image1 from './IMG_0065.jpg';
 import image2 from './IMG_0068.jpg';
 import image3 from './IMG_0848.jpg';
 import image34 from './img22.jpg';
-import image44 from './IMG_3594.jpg'
+import image44 from './IMG_3594.jpg';
+import coffeebags from './coffeeshopbags_large.jpg';
+import coffeepods from './coffeeshoppods.jpg';
+import coffeetin from './coffeetinshop_large.jpg';
+
+
 function App() {
 
   const colors = [image1, image2, image3];
@@ -274,148 +279,27 @@ GROUND is a daily habit which brings positivity and company to everyone's day"</
                   SHOP NOW
                 </h3>
                 <h2 className='main-div3-section-div-header-h2'>
-                  REFY COLLECTIONS
+                  NAKED GROUND
                 </h2>
               </header>
-              <div>
-                <div className='main-div3-section-div-div'>
-                  <div style={{opacity: "1", width: "732px", transform: "translate3d(0px, 0px, 0px)"}}>
-                    <div className='main-div3-section-div-div--' style={{padding: "0px", width: "244px"}}>
-                      <article>
-                        <a className='main-div3-section-div-div--a' style={{paddingBottom: "58%"}} href="#">
-                          <img alt="" />
-                        </a>
-                        <div className='main-div3-section-div-div--div'>
-                          <h2 className='main-div3-section-div-div--div-h2'>
-                            <a className='main-div3-section-div-div--div-h2-a' href="/refy-brow">
-                              BROW COLLECTION
-                            </a>
-                          </h2>
-                          <a href="/refy-brow" ><u></u>
-                          </a>
-                        </div>
-                      </article>
-                    </div>
-                    <div className='main-div3-section-div-div--' style={{padding: "0px", width: "244px"}}>
-                      <article>
-                        <a className='main-div3-section-div-div--a' style={{paddingBottom: "58%"}} href="/refy-lips">
-                          <img alt="" />
-                        </a>
-                        <div className='main-div3-section-div-div--div'>
-                          <h2 className='main-div3-section-div-div--div-h2'>
-                            <a className='main-div3-section-div-div--div-h2-a' href="/refy-lips">LIP COLLECTION</a>
-                          </h2>
-                          <a href="/refy-lips"><u></u></a>
-                        </div>
-                      </article>
-                    </div>
-                    <div className='main-div3-section-div-div--' style={{padding: "0px", width: "244px"}}>
-                      <article>
-                        <a className='main-div3-section-div-div--a' style={{paddingBottom: "58%"}} href="/summer-skin">
-                          <img alt="" />
-                        </a>
-                        <div className='main-div3-section-div-div--div'>
-                          <h2 className='main-div3-section-div-div--div-h2'>
-                            <a className='main-div3-section-div-div--div-h2-a' href="/summer-skin" >FACE COLLECTION</a>
-                          </h2>
-                          <a href="/summer-skin" ><u></u></a>
-                        </div>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
         </div>
         <div className='main-div4'>
           <section className='main-div4-section'>
-            <header className='main-div4-section-header'>
-              <div className='main-div4-section-header-div'>
-                <div className='main-div4-section-header-div-div'>
-                  <button className='main-div4-section-header-div-button'>BROW</button>
-                  <button className='main-div4-section-header-div-button'>LIPS</button>
-                </div>
-              </div>
-            </header>
             <div className='main-div4-section-div'>
               <div className='main-div4-section-div-div'>
                 <div className='main-div4-section-div-div-div' style={{visibility: "inherit", opacity: "1", transform: "matrix(1, 0, 0, 1, 0, 0)"}}>
-                  <div style={{height: "335.719px"}}>
-                    <div className='main-div4-section-div-div-div-1' style={{position: "absolute", left: "0%"}}>
-                      <div>
-                        <a href="/eyebrow-tint">
-                          <div style={{maxWidth: "1200px", paddingBottom: "133.33333333333334%"}}>
-                            <img alt=""/>
-                          </div>
-                        </a>
-                        <div className='main-div4-section-div-div-div-1-div'>
-                          <h2 className='main-div4-section-div-div-div-1-div-h2'>
-                            <a className='main-div4-section-div-div-div-1-div-h2-a' href="/eyebrow-tint">Brow Tint</a>
-                          </h2>
-                          <div>
-                            <span>£16</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className='main-div4-section-div-div-div-1' style={{position: "absolute", left: "25%"}}>
-                      <div>
-                        <a href="/brow-collection">
-                          <div style={{maxWidth: "1200px", paddingBottom: "133.33333333333334%"}}>
-                            <img alt=""/>
-                          </div>
-                        </a>
-                        <div className='main-div4-section-div-div-div-1-div'>
-                          <h2 className='main-div4-section-div-div-div-1-div-h2'>
-                            <a className='main-div4-section-div-div-div-1-div-h2-a' href="/brow-collection">Brow Collection</a>
-                          </h2>
-                          <div>
-                            <span>£40</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className='main-div4-section-div-div-div-1' style={{position: "absolute", left: "50%"}}>
-                      <div>
-                        <a href="/brow-sculpt">
-                          <div style={{maxWidth: "1340px", paddingBottom: "133.28358208955225%"}}>
-                            <img alt=""/>
-                          </div>
-                        </a>
-                        <div className='main-div4-section-div-div-div-1-div'>
-                          <h2 className='main-div4-section-div-div-div-1-div-h2'>
-                            <a className='main-div4-section-div-div-div-1-div-h2-a' href="/brow-sculpt">Brow Sculpt</a>
-                          </h2>
-                          <div>
-                            <span>£16</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className='main-div4-section-div-div-div-1' style={{position: "absolute", left: "75%"}}>
-                      <div>
-                        <a href="/refy-brow-tint-pencil">
-                          <div style={{maxWidth: "1200px", paddingBottom: "133.33333333333334%"}}>
-                            <img alt=""/>
-                          </div>
-                        </a>
-                        <div className='main-div4-section-div-div-div-1-div'>
-                          <h2 className='main-div4-section-div-div-div-1-div-h2'>
-                            <a className='main-div4-section-div-div-div-1-div-h2-a' href="/refy-brow-tint-pencil">REFY Brow Tint + Brow Pencil</a>
-                          </h2>
-                          <div>
-                            <span>£28</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  <div className='gg'>
+                          <img className='ff' alt="" src={coffeetin} />
+                          <img alt="" src={coffeebags} />
+                          <img className='ff' alt="" src={coffeepods} />
                   </div>
                 </div>
               </div>
               <div className='main-div4-section-div-div1'>
                 <div className='main-div4-section-div-div1-div'>
-                  <a className='main-div4-section-div-div1-div-a' href="/refy-brow">SHOP COLLECTION</a>
+                  <a className='main-div4-section-div-div1-div-a' href="#">SHOP COLLECTION</a>
                 </div>
               </div>
             </div>
