@@ -1532,3 +1532,286 @@ img{
   width: inherit;
   object-fit: cover;
 }
+
+.mob-nav{
+  text-size-adjust: 100%;
+
+  visibility: inherit;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  border: none;
+  border-radius: 0;
+  text-transform: none;
+  appearance: button;
+  -webkit-appearance: button;
+  cursor: pointer;
+  position: relative;
+  background: transparent;
+  display: inline-block;
+  line-height: 1;
+  transition: color .2s ease-in-out;
+}
+
+.mob-div-nav{
+  text-size-adjust: 100%;
+  font-size: 14px;
+  visibility: inherit;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.65;
+  color: #454545;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+}
+
+.mob-nav-span{
+  text-size-adjust: 100%;
+  visibility: inherit;
+  color: inherit;
+  font: inherit;
+  text-transform: none;
+  cursor: pointer;
+  line-height: 1;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+}
+
+.ph{
+  display: none;
+  height: 450px;
+  justify-content:center;
+}
+
+.pc{
+  height: 256.984px;
+  display: flex; 
+  justify-content:center;
+}
+
+@media (max-width: 600px) {
+  .header-home{
+    display: none;
+  }
+
+  .pc{
+    display: none;
+  }
+
+  .mob-header{
+    display: block;
+    text-size-adjust: 100%;
+    font-size: 14px;
+    visibility: inherit;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.65;
+    box-sizing: border-box!important;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    background: white;
+    color: #454545;
+    box-shadow: 0 -1px #e3e3e3 inset;
+    transition: background .3s ease-in-out,box-shadow .3s ease-in-out;
+  }
+  .ph{
+    display: flex; 
+  }
+  .main-div2-section-div{
+    padding: 0;
+  }
+}
+
+.ph-section-side{
+  text-size-adjust: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.65;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 65px);
+  z-index: 20;
+  transition: transform .5s cubic-bezier(.645,.045,.355,1),visibility .5s cubic-bezier(.645,.045,.355,1);
+  box-shadow: none;
+  touch-action: manipulation;
+  height: 100%;
+  background: #454545;
+  color: #fff;
+  visibility: visible;
+  transform: translate(0);
+  max-height: 100vh;
+}
+
+.ph-section-side-header{
+  text-size-adjust: 100%;
+  font-size: 14px;
+  font-family: Lato,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.65;
+  color: #fff;
+  visibility: visible;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-height: 60px;
+  background: inherit;
+  text-align: center;
+  z-index: 1;
+  height: var(--header-height);
+  transition: opacity .5s ease .25s,transform .5s ease .25s;
+  opacity: 1;
+  transform: translate(0);
+  height: 54px;
+}
+
+.ph-section-side-header-button{
+  text-size-adjust: 100%;
+  visibility: visible;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  border: none;
+  border-radius: 0;
+  text-transform: none;
+  appearance: button;
+  -webkit-appearance: button;
+  cursor: pointer;
+  background: transparent;
+  position: absolute;
+  margin-left: 0;
+  left: 18px;
+  top: calc(50% - 7px);
+  line-height: 0;
+}
+
+.ph-close-icon{
+  text-size-adjust: 100%;
+  visibility: visible;
+  color: inherit;
+  font: inherit;
+  text-transform: none;
+  cursor: pointer;
+  line-height: 0;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: middle;
+  background: none;
+  pointer-events: none;
+  overflow: hidden;
+  width: 15px;
+  height: 15px;
+  stroke-width: 1.25px;
+}
+
+.ph-section-side-main{
+  text-size-adjust: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.65;
+  color: #fff;
+  visibility: visible;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: max(100% - var(--header-height),100% - 60px);
+  max-height: max(100% - var(--header-height),100% - 60px);
+}
+
+.ph-section-side-main-links{
+  text-size-adjust: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.65;
+  color: #fff;
+  visibility: visible;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  padding-left: 18px;
+  padding-right: 24px;
+}
+
+.ph-section-side-main-links-nav{
+  text-size-adjust: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.65;
+  color: #fff;
+  visibility: visible;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+}
+
+.ph-section-side-main-links-link{
+  text-size-adjust: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.65;
+  color: #fff;
+  visibility: visible;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  border-bottom: 1px solid #e3e3e3;
+  overflow: hidden;
+  border-color: #ffffff40;
+  border-top: none;
+}
+
+.ph-section-side-main-links-link-button{
+  text-size-adjust: 100%;
+  visibility: visible;
+  box-sizing: border-box!important;
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  background: none;
+  border: none;
+  border-radius: 0;
+  appearance: button;
+  -webkit-appearance: button;
+  font-weight: 400;
+  font-style: normal;
+  transition: color .2s ease-in-out;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  text-align: left;
+  cursor: pointer;
+  color: #fff;
+}
