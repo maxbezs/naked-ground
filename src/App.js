@@ -71,7 +71,11 @@ const delay = 2500;
                     Contact us
                   </a>
                 </li>
-                
+                <li className='header-main-navigation-li'>
+                  <a className='header-main-navigation-li-a' href="https://cdn.shopify.com/s/files/1/0598/9367/8286/files/Naked_Ground_A3_Food_Menu_-_English_trim_bleed.pdf?v=1680277399">
+                    Menu
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
