@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/naked-ground/static/css/main.7e698c99.css",
-    "main.js": "/naked-ground/static/js/main.3931a245.js",
+    "main.js": "/naked-ground/static/js/main.24bee52e.js",
     "static/js/787.28cb0dcd.chunk.js": "/naked-ground/static/js/787.28cb0dcd.chunk.js",
-    "static/media/IMG_0848.jpg": "/naked-ground/static/media/IMG_0848.49c7a158b32dceed1167.jpg",
-    "static/media/IMG_0068.jpg": "/naked-ground/static/media/IMG_0068.7c6126ceca8aec229cc4.jpg",
-    "static/media/IMG_0065.jpg": "/naked-ground/static/media/IMG_0065.76b2a1d4e50e36a7a658.jpg",
+    "static/media/4.jpg": "/naked-ground/static/media/4.337a78ec4134d00bfb06.jpg",
+    "static/media/5.jpg": "/naked-ground/static/media/5.d811e4fbd78703df0d5a.jpg",
+    "static/media/3.jpg": "/naked-ground/static/media/3.641aa46d7c82a2f2d895.jpg",
     "static/media/img22.jpg": "/naked-ground/static/media/img22.c91c048af33c8aaf3ab9.jpg",
+    "static/media/1.jpg": "/naked-ground/static/media/1.699810454a717dfc7296.jpg",
+    "static/media/2.jpg": "/naked-ground/static/media/2.ba3ae6dffc782de21b7a.jpg",
     "static/media/IMG_3594.jpg": "/naked-ground/static/media/IMG_3594.acb3acc4eadf75b4b4c3.jpg",
     "static/media/IMG_4369.jpg": "/naked-ground/static/media/IMG_4369.e33621091cf71484eb08.jpg",
     "static/media/logo.png": "/naked-ground/static/media/logo.3c89b7c7c3def9536a9a.png",
@@ -18,11 +20,11 @@
     "static/media/IMG_4365.jpg": "/naked-ground/static/media/IMG_4365.1853ed72e3fcb7779876.jpg",
     "index.html": "/naked-ground/index.html",
     "main.7e698c99.css.map": "/naked-ground/static/css/main.7e698c99.css.map",
-    "main.3931a245.js.map": "/naked-ground/static/js/main.3931a245.js.map",
+    "main.24bee52e.js.map": "/naked-ground/static/js/main.24bee52e.js.map",
     "787.28cb0dcd.chunk.js.map": "/naked-ground/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e698c99.css",
-    "static/js/main.3931a245.js"
+    "static/js/main.24bee52e.js"
   ]
 }
