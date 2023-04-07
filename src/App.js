@@ -86,11 +86,7 @@ const delay = 2500;
             </nav>
           </div>
           <div className='header-center-links'>
-            <h1 className='header-center-links-h1'>
-              <a className='header-center-links-h1-a' href="/" >
-                <img src={logo} className='header-center-links-h1-a-img' width="140" alt="NAKED GROUND"/>
-              </a>
-            </h1>
+            <h1 className='header-center-links-h1-a-img'>NAKED GROUND</h1>
           </div>
           <div className='header-right-links'>
             <nav className='header-right-links-nav'>
@@ -196,13 +192,7 @@ const delay = 2500;
             </div>
           </section> : null
           }
-          <div style={{width: "100%"}}>
-            <h1>
-              <a>
-                <img src={logo} className='header-center-links-h1-a-img' width="140" alt="NAKED GROUND"/>
-              </a>
-            </h1>
-          </div>
+           <h1 className='header-center-links-h1-a-img'>NAKED GROUND</h1>
         </div>
       </header>
       <main className='main'>
@@ -314,7 +304,7 @@ GROUND is a daily habit which brings positivity and company to everyone's day"</
                 <h2 className='footer-div-div-div1-h2'>
                   NAKED GROUND
                 </h2>
-                <p>We are place where you belong.</p>
+                <p>We are a place where you belong.</p>
                 <ul className='footer-div-div-div1-ul'>
                   <li className='footer-div-div-div1-ul-li'>
                     <a className='footer-div-div-div1-ul-li-a' href="https://www.facebook.com/refy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
