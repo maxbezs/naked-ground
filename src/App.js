@@ -313,7 +313,7 @@ GROUND is a daily habit which brings positivity and company to everyone's day"</
                 </h2>
                 <p>We are a place where you belong.</p>
                 <ul className='footer-div-div-div1-ul'>
-                  <li className='footer-div-div-div1-ul-li'>
+                  {/**<li className='footer-div-div-div1-ul-li'>
                     <a className='footer-div-div-div1-ul-li-a' href="https://www.facebook.com/refy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                       <span>
                         <svg className='footer-div-div-div1-ul-li-a-svg' role="presentation" viewBox="0 0 9 17">
@@ -321,7 +321,7 @@ GROUND is a daily habit which brings positivity and company to everyone's day"</
                         </svg>
                       </span>
                     </a>
-                  </li>
+                    </li>**/}
                   <li className='footer-div-div-div1-ul-li'>
                     <a className='footer-div-div-div1-ul-li-a' href="https://www.instagram.com/nakedground.es/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                       <span>
