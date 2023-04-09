@@ -371,11 +371,11 @@ GROUND is a daily habit which brings positivity and company to everyone's day"</
               <div className='footer-div-div-div3'>
                 <h2 className='footer-div-div-div1-h2'>FREE HOLIDAY TO IBIZA!</h2>
                 <p>Enter your email address for a chance to win a free holiday to Ibiza!</p>
-                <form>
+                <div>
                   <input className='form-input' type="email" aria-label="Enter your email address" 
                   placeholder="Enter your email address" required=""/>
-                  <button className='form-button' type="submit">Subscribe</button>
-                </form>
+                  <button className='form-button'>Subscribe</button>
+                </div>
               </div>
             </div>
             <div className='footer-buttom'>
